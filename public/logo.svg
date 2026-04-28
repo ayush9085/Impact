@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Ripple circles symbolizing spreading impact -->
+  <circle cx="100" cy="100" r="90" fill="#EFF6FF" stroke="#2563EB" stroke-width="2" opacity="0.3"/>
+  <circle cx="100" cy="100" r="65" fill="#DBEAFE" stroke="#2563EB" stroke-width="2" opacity="0.5"/>
+  <circle cx="100" cy="100" r="40" fill="#2563EB" opacity="0.12"/>
+
+  <!-- Bold "I" bar – bottom base -->
+  <rect x="72" y="132" width="56" height="10" rx="5" fill="#2563EB"/>
+  <!-- "I" bar – top -->
+  <rect x="72" y="58" width="56" height="10" rx="5" fill="#2563EB"/>
+  <!-- "I" stem -->
+  <rect x="92" y="68" width="16" height="64" rx="4" fill="#2563EB"/>
+
+  <!-- Green upward arrow / growth indicator -->
+  <polyline points="118,95 128,82 138,95" stroke="#22C55E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="128" y1="82" x2="128" y2="110" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+</svg>
