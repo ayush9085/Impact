@@ -25,6 +25,12 @@ During crises or even standard community drives, Non-Governmental Organizations 
 - **For NGOs:** Provides a command center to create tasks. Using **Google Gemini AI**, the platform automatically summarizes long descriptions of community needs, suggests an urgency priority level, and algorithmically matches the top 3 best-suited volunteers from the database.
 - **For Volunteers:** Provides a personalized dashboard where they receive task requests matching their specific skills and location. They can review AI-generated reasoning on *why* they were selected, and accept or decline the mission with one click.
 
+## 🏗️ Architecture
+
+<div align="center">
+  <img src="./public/architecture.png" alt="Impact Architecture Diagram" />
+</div>
+
 ## ⚙️ How we built it
 We utilized a modern, lightning-fast tech stack heavily reliant on the **Google Cloud Ecosystem**:
 - **Frontend:** Built with React 19 and Vite for a highly responsive, single-page application experience. Styled using Tailwind CSS v4 for a beautiful, modern UI.
