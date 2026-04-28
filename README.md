@@ -1,9 +1,10 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/users.svg" alt="Impact Logo" width="120" height="120" />
+  <img src="./public/logo.svg" alt="Impact Logo" width="120" height="120" />
 
   <h1>🌍 Impact</h1>
   <p><strong>Winner-Worthy Hackathon Submission</strong></p>
   <p><em>AI-Powered Resource & Volunteer Allocation for Social Impact Organizations</em></p>
+  <p><strong><a href="https://impact-da12c.web.app" target="_blank">🚀 View Live Demo</a></strong></p>
 
   <p>
     <img alt="React" src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black" />
