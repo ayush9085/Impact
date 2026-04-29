@@ -14,14 +14,11 @@ import {
 
 function ImpactLogo({ size = 32 }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="32" height="32" rx="8" fill="#2563EB"/>
-      <rect x="10" y="8" width="12" height="3" rx="1.5" fill="white"/>
-      <rect x="10" y="21" width="12" height="3" rx="1.5" fill="white"/>
-      <rect x="14" y="11" width="4" height="10" rx="1" fill="white"/>
-      <polyline points="20,14 23,10 26,14" stroke="#22C55E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-      <line x1="23" y1="10" x2="23" y2="20" stroke="#22C55E" strokeWidth="2.5" strokeLinecap="round"/>
-    </svg>
+    <img 
+      src="/logo.png" 
+      alt="Impact Logo" 
+      style={{ width: size, height: size, borderRadius: '8px', objectFit: 'cover' }} 
+    />
   );
 }
 

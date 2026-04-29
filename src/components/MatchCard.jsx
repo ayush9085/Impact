@@ -39,7 +39,7 @@ export default function MatchCard({ match, volunteer, onAccept, onReject, showAc
             <div className="breakdown-bar">
               <div
                 className="breakdown-fill breakdown-skill"
-                style={{ width: `${match.breakdown.skill}%` }}
+                style={{ transform: `scaleX(${match.breakdown.skill / 100})` }}
               />
             </div>
             <span className="breakdown-value">{match.breakdown.skill}%</span>
@@ -49,7 +49,7 @@ export default function MatchCard({ match, volunteer, onAccept, onReject, showAc
             <div className="breakdown-bar">
               <div
                 className="breakdown-fill breakdown-location"
-                style={{ width: `${match.breakdown.location}%` }}
+                style={{ transform: `scaleX(${match.breakdown.location / 100})` }}
               />
             </div>
             <span className="breakdown-value">{match.breakdown.location}%</span>
@@ -59,7 +59,7 @@ export default function MatchCard({ match, volunteer, onAccept, onReject, showAc
             <div className="breakdown-bar">
               <div
                 className="breakdown-fill breakdown-availability"
-                style={{ width: `${match.breakdown.availability}%` }}
+                style={{ transform: `scaleX(${match.breakdown.availability / 100})` }}
               />
             </div>
             <span className="breakdown-value">{match.breakdown.availability}%</span>
@@ -69,7 +69,7 @@ export default function MatchCard({ match, volunteer, onAccept, onReject, showAc
             <div className="breakdown-bar">
               <div
                 className="breakdown-fill breakdown-urgency"
-                style={{ width: `${match.breakdown.urgency}%` }}
+                style={{ transform: `scaleX(${match.breakdown.urgency / 100})` }}
               />
             </div>
             <span className="breakdown-value">{match.breakdown.urgency}%</span>

@@ -83,14 +83,7 @@ export default function Signup() {
       <div className="auth-card auth-card-wide">
         <div className="auth-header">
           <div className="auth-logo-wrap">
-            <svg width="52" height="52" viewBox="0 0 32 32" fill="none">
-              <rect width="32" height="32" rx="8" fill="#2563EB"/>
-              <rect x="10" y="8" width="12" height="3" rx="1.5" fill="white"/>
-              <rect x="10" y="21" width="12" height="3" rx="1.5" fill="white"/>
-              <rect x="14" y="11" width="4" height="10" rx="1" fill="white"/>
-              <polyline points="20,14 23,10 26,14" stroke="#22C55E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-              <line x1="23" y1="10" x2="23" y2="20" stroke="#22C55E" strokeWidth="2.5" strokeLinecap="round"/>
-            </svg>
+            <img src="/logo.png" alt="Impact Logo" className="auth-logo-img" />
             <span className="auth-app-name">Impact</span>
           </div>
           <p>Create your free account to get started</p>
